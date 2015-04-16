@@ -57,36 +57,23 @@
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="movement_left" id="318">
-                                            <next>
-                                              <block type="robot_delay" id="356" inline="true">
-                                                <value name="DELAY">
-                                                  <block type="math_number" id="363">
-                                                    <field name="NUM">5000</field>
+                                          <block type="variables_set" id="402" inline="true">
+                                            <field name="VAR">?</field>
+                                            <value name="VALUE">
+                                              <block type="math_arithmetic" id="443" inline="true">
+                                                <field name="OP">ADD</field>
+                                                <value name="A">
+                                                  <block type="variables_get" id="462">
+                                                    <field name="VAR">?</field>
                                                   </block>
                                                 </value>
-                                                <next>
-                                                  <block type="variables_set" id="402" inline="true">
-                                                    <field name="VAR">?</field>
-                                                    <value name="VALUE">
-                                                      <block type="math_arithmetic" id="443" inline="true">
-                                                        <field name="OP">ADD</field>
-                                                        <value name="A">
-                                                          <block type="variables_get" id="462">
-                                                            <field name="VAR">?</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="B">
-                                                          <block type="math_number" id="469">
-                                                            <field name="NUM">300</field>
-                                                          </block>
-                                                        </value>
-                                                      </block>
-                                                    </value>
+                                                <value name="B">
+                                                  <block type="math_number" id="469">
+                                                    <field name="NUM">300</field>
                                                   </block>
-                                                </next>
+                                                </value>
                                               </block>
-                                            </next>
+                                            </value>
                                           </block>
                                         </next>
                                       </block>
