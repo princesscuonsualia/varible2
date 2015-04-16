@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="variables_set" id="9" inline="true" x="261" y="66">
-    <field name="VAR">?</field>
+    <field name="VAR">s</field>
     <value name="VALUE">
       <block type="math_number" id="16">
         <field name="NUM">200</field>
@@ -35,7 +35,7 @@
                       <block type="oled_drawnumber" id="141" inline="true">
                         <value name="NUMBER">
                           <block type="variables_get" id="153">
-                            <field name="VAR">?</field>
+                            <field name="VAR">s</field>
                           </block>
                         </value>
                         <next>
@@ -44,7 +44,7 @@
                               <block type="robot_delay" id="195" inline="true">
                                 <value name="DELAY">
                                   <block type="variables_get" id="213">
-                                    <field name="VAR">?</field>
+                                    <field name="VAR">s</field>
                                   </block>
                                 </value>
                                 <next>
@@ -58,13 +58,13 @@
                                         </value>
                                         <next>
                                           <block type="variables_set" id="402" inline="true">
-                                            <field name="VAR">?</field>
+                                            <field name="VAR">s</field>
                                             <value name="VALUE">
                                               <block type="math_arithmetic" id="443" inline="true">
                                                 <field name="OP">ADD</field>
                                                 <value name="A">
                                                   <block type="variables_get" id="462">
-                                                    <field name="VAR">?</field>
+                                                    <field name="VAR">s</field>
                                                   </block>
                                                 </value>
                                                 <value name="B">
